@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 25px;
+}
+.solidBorder{
+    border: 5px solid black;
+    width: 100%;
+    height:28vh;
+    margin: 0 auto 25px;
+    padding: 20px;
+}
+.purple{
+    display: inline-block;
+    background-color: purple;
+    width: 60px;
+    height: 150px;
+    margin-top: 35px;
+}
+.green{
+    display: inline-block;
+    background-color: green;
+    height: 100%;
+    width: 40%;
+    margin: 0 75px;
+}
+.circle{
+    display: inline-block;
+    background-color: lightblue;
+    width: 175px;
+    height: 175px;
+    border-radius:87.5px;
+}
+.dottedBorder{
+    border: 5px dotted black;
+    margin: 0 auto 25px;
+    height: 28vh;
+    width: 100%;
+    padding: 40px;
+}
+.bigShadowedBox{
+    box-shadow: 10px 10px 10px;
+    height: 100%;
+    width: 100%;
+    background-color: lightyellow;
+}
+.helloBox{
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 4px;
+    height: 28vh;
+    width: 60%;
+    padding: 50px;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
